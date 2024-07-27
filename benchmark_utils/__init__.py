@@ -8,6 +8,7 @@ from benchopt.utils import safe_import_context
 
 with safe_import_context() as import_ctx:
     import numpy as np
+    from metabci_utils import create_ssvep_paradigm  # noqa
 
 
 def gradient_ols(X, y, beta):
